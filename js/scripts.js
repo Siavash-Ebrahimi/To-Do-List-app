@@ -19,8 +19,7 @@ function newItem(){
 	});
 
   // C) Added a button shape of X (as a text) with click ability to each created <li>
-  let crossOutButton = $('<crossOutButton></crossOutButton>');
-  crossOutButton.append(document.createTextNode('X'));
+  let crossOutButton = $('<crossOutButton></crossOutButton>').append(document.createTextNode('X'));
   li.append(crossOutButton);
   crossOutButton.on('click', function(event){
     li.addClass('delete')
