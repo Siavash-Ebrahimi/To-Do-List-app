@@ -29,5 +29,5 @@ function newItem(){
   // D) Using jQuery .sortable() function for <ol id="list"></ol> in HTML
   // to sortable all items inside -> $('#list') by drag and drop.
    $('#list').sortable();
-   $('#list').sordidDragon()
+   $('#list').sordidDragon();
 }

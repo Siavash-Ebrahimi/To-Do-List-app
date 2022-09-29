@@ -23,6 +23,20 @@ background: #dfdfdf;
 
 }
 
+.topMenue{
+  display: flex;
+  align-items:center;
+  text-align:center;
+  margin: 0 auto;
+}
+
+.cont{
+  font-size: bold;
+  text-align:center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 .container{
 padding: 20px;
 width: 300px;
