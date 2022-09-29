@@ -1,4 +1,4 @@
-h1 {
+h2 {
   color: darkgreen;
 }
 
@@ -7,6 +7,20 @@ h1 {
 body {
 font: normal normal 13px/16px "Open Sans", sans-serif;
 background: #dfdfdf;
+}
+
+.topMenue{
+  display: flex;
+  align-items:center;
+  text-align:center;
+  margin: 0 auto;
+}
+
+.cont{
+  font-size: bold;
+  text-align:center;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .container{

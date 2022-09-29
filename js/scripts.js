@@ -10,7 +10,7 @@ function newItem(){
     alert("You must write something!");
   } else {
     $('#list').append(li);
-    $('#input').val('');    
+    $('#input').val('');
   }
 
   // B) Added double click functionality to each created <li>
@@ -29,4 +29,5 @@ function newItem(){
   // D) Using jQuery .sortable() function for <ol id="list"></ol> in HTML
   // to sortable all items inside -> $('#list') by drag and drop.
    $('#list').sortable();
+   $('#list').sordidDragon();
 }
